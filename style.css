@@ -1,0 +1,131 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0b0b;
+  color: #e0ffe0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00ff88;
+  color: #000;
+  padding: 100px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 255, 136, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 21em; /* Aumentado 7 vezes */
+  font-weight: bold;
+}
+
+header p {
+  font-size: 8em; /* Aumentado 7 vezes */
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  box-shadow: 0 2px 4px rgba(0, 255, 136, 0.2);
+}
+
+nav a {
+  color: #00ff88;
+  text-decoration: none;
+  margin: 0 100px; /* Aumentado espaçamento entre os links */
+  font-weight: bold;
+  font-size: 4em; /* Aumentado 7 vezes */
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 420px 200px; /* Aumentado 7 vezes */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 560px; /* Aumentado 7 vezes */
+  background-color: #121212;
+  padding: 280px; /* Aumentado 7 vezes */
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.1);
+}
+
+section h2 {
+  color: #00ff88;
+  font-size: 15.4em; /* Aumentado 7 vezes */
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 40px;
+  list-style-type: disc;
+  font-size: 3.5em; /* Aumentado 7 vezes */
+}
+
+ul li {
+  margin-bottom: 20px; /* Aumentado */
+}
+
+h3 {
+  color: #00ff88;
+  margin-top: 20px;
+  font-size: 7em; /* Aumentado 7 vezes */
+}
+
+button {
+  background-color: #00ff88;
+  color: #000;
+  border: none;
+  padding: 80px 160px; /* Aumentado 7 vezes */
+  font-size: 6em; /* Aumentado 7 vezes */
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 100px; /* Aumentado */
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #00cc6a;
+}
+
+footer {
+  text-align: center;
+  background-color: #00ff88;
+  color: #000;
+  padding: 140px; /* Aumentado 7 vezes */
+  box-shadow: 0 -4px 6px rgba(0, 255, 136, 0.3);
+  font-weight: bold;
+  font-size: 8em; /* Aumentado 7 vezes */
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 14em; /* Ajustado */
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+    font-size: 3em; /* Ajustado */
+  }
+
+  section {
+    padding: 120px; /* Ajustado */
+  }
+}
